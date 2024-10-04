@@ -1,0 +1,31 @@
+.carousel-container {
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 1000px; /* Ajusta el ancho máximo del carrusel */
+}
+
+.carousel-item {
+  background-color: #fff2e6  ;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.slick-slide {
+  padding: 10px;
+}
+
+.slick-prev, .slick-next {
+  font-size: 2rem;
+  color: #333;
+}
+
+.slick-dots li button:before {
+  color: #666;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #333;
+}

@@ -1,0 +1,36 @@
+.skills {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: left;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .skills li::before {
+    content: '•';
+    color: #6c63ff; /* Cambia el color a lo que desees */
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-right: 0.5rem;
+  }
+  

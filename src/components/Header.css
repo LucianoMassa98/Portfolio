@@ -1,0 +1,45 @@
+.header {
+   background: linear-gradient(115deg, #311814, #d55826); /* Gradiente negro a rojo */
+  padding: 20px;
+  text-align: center;
+  color: white; /* Ajusta el color del texto a blanco para que contraste con el fondo */
+
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__photo {
+  margin-bottom: 20px;
+}
+
+.header__photo-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+  border: 2px solid #d66c42; /* Borde opcional */
+}
+
+.header__info {
+  text-align: center;
+}
+
+.header__name {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.header__title {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.header__description {
+  font-size: 1rem;
+  color: #ffffff;
+}
