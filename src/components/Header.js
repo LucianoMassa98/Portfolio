@@ -13,9 +13,10 @@ const Header = () => {
         </div>
         <div className="header__info">
           <h1 className="header__name">Luciano Massa</h1>
-          <h2 className="header__title">Product Manager IT</h2>
+          <h2 className="header__title">Product Manager IT Jr / Software Developer Ssr</h2>
           <p className="header__description">
-          Ayudo a empresas a liderar proyectos de tecnología de manera eficiente, maximizando el valor del producto y alineando los equipos hacia objetivos de negocio.          </p>
+          Ayudo a las organizaciones a gestionar y liderar proyectos tecnológicos con el objetivo de maximizar el valor del producto, alineando equipos de desarrollo y producción.
+         </p>
         </div>
       </div>
     </header>
