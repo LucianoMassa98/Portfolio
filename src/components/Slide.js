@@ -4,7 +4,7 @@ import { EffectCoverflow, Navigation } from 'swiper/modules'
 import { ArrowLeft, ArrowRight } from 'phosphor-react'
 
 import B01 from '../assets/Destored2.png'
-import B02 from '../assets/YemasDelSol.png'
+import B02 from '../assets/Destored2.png'
 import B03 from '../assets/Vendeporinsta.png'
 import B04 from '../assets/SuperOnce.png'
 import B05 from '../assets/ATM2.png'
