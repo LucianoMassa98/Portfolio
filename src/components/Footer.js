@@ -1,10 +1,8 @@
 import React from 'react';
 import './Footer.css';
 import {
-  RiCheckboxBlankCircleFill,
   RiInstagramLine,
   RiFacebookLine,
-  RiTwitterLine,
   RiGithubLine,
   RiLinkedinFill 
   
