@@ -2,6 +2,9 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectCoverflow, Navigation } from 'swiper/modules'
 import { ArrowLeft, ArrowRight } from 'phosphor-react'
+import 'swiper/css'
+import 'swiper/css/effect-coverflow'
+import './Slide.css';
 
 import B01 from '../assets/Destored2.jpg';
 import B02 from '../assets/YemasDelSol.jpg';
@@ -9,9 +12,7 @@ import B03 from '../assets/Vendeporinsta.jpg';
 import B04 from '../assets/SuperOnce.jpg';
 import B05 from '../assets/ATM2.jpg';
 
-import 'swiper/css'
-import 'swiper/css/effect-coverflow'
-import './Slide.css';
+
 
 const Slide = () => {
 
