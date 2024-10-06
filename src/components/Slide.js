@@ -3,10 +3,11 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectCoverflow, Navigation } from 'swiper/modules'
 import { ArrowLeft, ArrowRight } from 'phosphor-react'
 
-import B01 from '../assets/hamburger-01.png'
-import B02 from '../assets/hamburger-02.png'
-import B03 from '../assets/hamburger-03.png'
-import B04 from '../assets/hamburger-04.png'
+import B01 from '../assets/Logo Destored.svg'
+import B02 from '../assets/Yemas del sol.png'
+import B03 from '../assets/Vende por insta.png'
+import B04 from '../assets/Super el once.png'
+import B05 from '../assets/Yemas del sol.png'
 
 import 'swiper/css'
 import 'swiper/css/effect-coverflow'
@@ -26,7 +27,7 @@ const Slide = () => {
                 slidesPerView={3}
                 coverflowEffect={{
                     rotate: 0,
-                    stretch: -75,
+                    stretch: -60,
                     depth: 250,
                     modifier: 3.5,
                     slideShadows: false,
@@ -39,18 +40,20 @@ const Slide = () => {
                 modules={[EffectCoverflow, Navigation]}
             >
                 <SwiperSlide>
-                    <img src={B01} alt="burger" />
+                    <img src={B01} alt="parner" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={B02} alt="burger" />
+                    <img src={B02} alt="parner" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={B03} alt="burger" />
+                    <img src={B03} alt="parner" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={B04} alt="burger" />
+                    <img src={B04} alt="parner" />
                 </SwiperSlide>
-               
+                <SwiperSlide>
+                    <img src={B05} alt="parner" />
+                </SwiperSlide>
 
                 <div className='slider-controler'>
                     <div className='swiper-button-prev'>
