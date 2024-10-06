@@ -33,9 +33,11 @@ const Experience = () => {
           <h5>Proyectos y Aplicaciones</h5>
           <li><a href="https://aconex.up.railway.app/login" className="enlaces">App Web Escritorio - AConex</a></li>
           <li><a href="https://atodomotor.up.railway.app/login" className="enlaces">App Web Móvil - ATodoMotorApp</a></li>
-          <li><a href="https://aconex.up.railway.app/login" className="enlaces">App Web Móvil - OFIX</a></li>
+          <li><a href="https://ofix.up.railway.app/" className="enlaces">App Web Móvil - OFIX</a></li>
           <li><a href="https://yemasdelsol.up.railway.app/login" className="enlaces">App Web Escritorio y Móvil - YemasApp</a></li>
           <li><a href="https://destored.up.railway.app/" className="enlaces">Página Web - Destored</a></li>
+          <li><a href="https://destored.up.railway.app/" className="enlaces">Google Drive - Destored Pasantías</a></li>
+
         </ul>
       </div>
 
@@ -53,7 +55,7 @@ const Experience = () => {
 
         <ul>
           <h5>Proyectos y Referencias</h5>
-          <li><a href="https://g.co/kgs/8tfuBVF" className="enlaces">Google Info - Suinfi</a></li>
+          <li><a href="https://g.co/kgs/rCKZGuk" className="enlaces">Google Info - Suinfi</a></li>
           <li><a href="https://www.suinfi.com/" className="enlaces">Ecommerce - Suinfi</a></li>
         </ul>
       </div>
