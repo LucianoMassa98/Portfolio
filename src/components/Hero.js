@@ -4,6 +4,8 @@ import './Hero.css'; // Archivo CSS asociado
 const Hero = () => {
   return (
     <section className="hero-container">
+        <h3>Video Presentación</h3>
+
       <iframe
         title="Instagram Reel"  // El atributo "title" es obligatorio para accesibilidad
         className="hero-iframe"

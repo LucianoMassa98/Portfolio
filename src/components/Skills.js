@@ -10,7 +10,7 @@ const Skills = () => {
         <li>Desarrollo ágil (Scrum, Kanban)</li>
         <li>Análisis de requerimientos y priorización de features</li>
         <li>Comunicación entre equipos multidisciplinarios</li>
-        <li>Tecnologías: React, Node.js, Railway</li>
+        <li>Tecnologías: Figma, React, Node.js, Railway y PostgreSQL</li>
       </ul>
     </section>
   );
