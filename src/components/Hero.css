@@ -1,0 +1,28 @@
+
+.hero-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0; /* Añade separación arriba y abajo */
+}
+
+.hero-iframe {
+  width: 100%;
+  max-width: 800px; /* Ajusta el tamaño máximo del iframe */
+  height: 450px; /* Ajusta la altura del iframe */
+  border-radius: 10px;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .hero-iframe {
+    height: 550px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-iframe {
+    height: 650px;
+  }
+}

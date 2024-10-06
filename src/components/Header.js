@@ -17,6 +17,8 @@ const Header = () => {
           <p className="header__description">
           Ayudo a las organizaciones a gestionar y liderar proyectos tecnológicos con el objetivo de maximizar el valor del producto, alineando equipos de desarrollo y producción.
          </p>
+
+         
         </div>
       </div>
     </header>
