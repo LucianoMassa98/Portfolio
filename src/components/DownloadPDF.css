@@ -1,0 +1,15 @@
+.downloadPDF button {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #311814;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .downloadPDF button:hover {
+    background-color: #444;
+  }
+  

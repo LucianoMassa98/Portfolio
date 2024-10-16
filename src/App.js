@@ -6,6 +6,7 @@ import CTA from './components/CTA';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Slide from './components/Slide'
+import DownloadPDF from './components/DownloadPDF'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Slide />
       <Skills />
       <CTA />
+      <DownloadPDF />
       <Footer />
     </div>
   );
