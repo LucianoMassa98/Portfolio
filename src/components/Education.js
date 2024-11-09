@@ -12,7 +12,7 @@ const Education = () => {
       </p>
 
       <div className="study-section">
-        <h4>Universidad Nacional de San Juan - Facultad de Ciencias Excactas</h4>
+        <h4>Facultad de Ciencias Exactas, Físicas y Naturales UNSJ</h4>
         <p className="degree">Ingeniería en Sistemas de Información (2016 - Actualidad)</p>
         <p>Durante mi carrera, adquirí conocimientos fundamentales en programación, diseño de sistemas y bases de datos, además de una sólida comprensión de los principios de ingeniería de software y gestión de proyectos.</p>
 
@@ -31,23 +31,15 @@ const Education = () => {
         <ul>
           <h5>Principales Cursos Completados</h5>
           <li>Curso de JavaScript Avanzado</li>
-          <li>Desarrollo Backend con Node.js</li>
-          <li>React: Componentes y Estados</li>
+          <li>Diseño Web: Figma y Fundamentos </li>
+          <li>Desarrollo Backend: Node.js, Express js, Passaport JS y Postgresql </li>
+          <li>Desarrollo Frontend: React Js, Vue Js y .Net C#</li>
+          <li>Extras: Ventas en Internet, Negocios Online y Planificación de Proyectos </li>
+
         </ul>
       </div>
 
-      <div className="study-section">
-        <h4>Scrum.org</h4>
-        <p className="degree">Certificación Profesional Scrum Master (2023)</p>
-        <p>Obtuve una certificación en Scrum Master, fortaleciendo mis habilidades en la implementación de metodologías ágiles, gestión de equipos y optimización de procesos en proyectos de desarrollo de software.</p>
-
-        <ul>
-          <h5>Principales Competencias</h5>
-          <li>Facilitación de ceremonias Scrum: Daily Standup, Sprint Review, y Retrospective.</li>
-          <li>Implementación de herramientas para el seguimiento de tareas y planificación de sprint.</li>
-          <li>Capacidad para resolver conflictos de equipo y promover la colaboración efectiva.</li>
-        </ul>
-      </div>
+      
     </section>
   );
 };

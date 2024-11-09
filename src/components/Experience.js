@@ -9,9 +9,7 @@ const Experience = () => {
         Cuento con experiencia liderando equipos multidisciplinarios para desarrollar
         soluciones tecnológicas que impulsan el crecimiento empresarial. Con una sólida
         trayectoria en la gestión de productos de software, he trabajado en proyectos
-        innovadores, especializándome en optimizar procesos, coordinar equipos y entregar productos de alto
-        impacto. Mi enfoque se centra en alinear la visión del producto con los objetivos
-        de negocio, asegurando soluciones eficientes y de calidad.
+        innovadores, especializándome en optimizar procesos, coordinar equipos y entregar productos digitales. 
       </p>
 
       <div className="job-section">
@@ -21,20 +19,23 @@ const Experience = () => {
 
         <ul>
           <h5>Principales Logros</h5>
-          <li>Capacité y coordiné a más de 50 profesionales en un periodo de capacitación de 4 meses.</li>
-          <li>Supervisé la implementación de Railway como infraestructura de despliegue, optimizando la eficiencia en producción.</li>
-          <li>Identificación de más de 18 roles diferentes para llevar adelante proyectos tecnológicos o SaaS.</li>
-          <li>Experiencia en las metodologías ágiles Scrum y Kanban.</li>
-          <li>Primera experiencia en la creación de presupuestos y asignación de recursos.</li>
+          <li>Base de networking activo, con una base de datosd de más de 70 profesionales It con los que coloboro.</li>
+          <li>Priorización de Funcionalidades</li>
+          <li>Interacción con Stakeholders</li>
+          <li>Definición de Requisitos</li>
+          <li>Validación y Testing de Productos</li>
+          <li>Mejora Continua</li>
+          <li>Ágile Scrum y Kanban</li>
+
        
         </ul>
 
         <ul>
-          <h5>Proyectos y Aplicaciones</h5>
+          <h5>Proyectos</h5>
           <li><a href="https://aconex.up.railway.app/login" className="enlaces">App Web Escritorio - AConex</a></li>
           <li><a href="https://atodomotor.up.railway.app/login" className="enlaces">App Web Móvil - ATodoMotorApp</a></li>
           <li><a href="https://ofix.up.railway.app/" className="enlaces">App Web Móvil - OFIX</a></li>
-          <li><a href="https://yemasdelsol.up.railway.app/login" className="enlaces">App Web Escritorio y Móvil - YemasApp</a></li>
+          <li><a href="https://frondend-yemas-del-sol-development.up.railway.app/" className="enlaces">Plataforma Web - YemasApp</a></li>
           <li><a href="https://destored.up.railway.app/" className="enlaces">Página Web - Destored</a></li>
           <li><a href="https://destored.up.railway.app/" className="enlaces">Google Drive - Destored Pasantías</a></li>
 
@@ -44,19 +45,23 @@ const Experience = () => {
       <div className="job-section">
         <h4>Suinfi</h4>
         <p className="position">Software Developer Ssr (03/2024 - Actualidad)</p>
-        <p>Actualmente estoy contratado para brindar mis conocimientos y servicios en el diseño, desarrollo y mantenimiento web de un Ecommerce digital y un Saas Gastronómico desde cero junto a un excelente equipo de trabajo multidisciplinario</p>
+        <p>Actualmente estoy contratado para brindar mis conocimientos y servicios en el diseño, desarrollo y mantenimiento web de un Ecommerce digital y un Saas Gastronómico desde cero junto a un excelente equipo multidisciplinario</p>
 
         <ul>
           <h5>Principales Logros</h5>
-          <li>Más experiencia en la integración de API's y servicios en la nube como Hostinger.</li>
-          <li>Más experiencia en metodologías ágiles.</li>
-          <li>Más experiencia en la identificación de la misión, visión y alcance de los productos.</li>
+          <li>Diseño e implementación de base de datos en posgresql y mysql.</li>
+          <li>Diseño Y desarrollo de API's y microservicios con Node Js</li>
+          <li>implementación de servicios en la nube como Hostinger y Railway.</li>
+          <li>Colaboración en la captura de requisitos y diseño</li>
+          <li>Diseño y desarrollo de Aplicaciones de escritorio con .NET</li>
         </ul>
 
         <ul>
           <h5>Proyectos y Referencias</h5>
           <li><a href="https://g.co/kgs/rCKZGuk" className="enlaces">Google Info - Suinfi</a></li>
           <li><a href="https://www.suinfi.com/" className="enlaces">Ecommerce - Suinfi</a></li>
+          <li><a href="https://app.suinfi.com/" className="enlaces">Software Gastronómico - Suinfi</a></li>
+
         </ul>
       </div>
 
@@ -66,13 +71,13 @@ const Experience = () => {
         <p>En esta etapa, empecé a tener más referidos y mi decisión fue la de crear un emprendimiento propio, en el cual comenzaría trabajando al principio como desarrollador backend, mientras diseñaba e implementaba un modelo de negocio propio que me permitiera escalar mis servicios para diversos proyectos tecnológicos de organizaciones como: A Todo Motor, Vendeporinsta, Yemas del Sol, El Once y El Lote.</p>
 
         <ul>
-        <li>Primera experiencia con modelos de negocios y analisis de competencia</li>
-              <li>Primera experiencia con la gestión del area de marketing y publicidad en un negocio</li>
-              <li>Primera experiencia en la implementación de tableros y metodologías ágiles de trabajo</li>
-              <li>Primera experiencia en la integración de apis externas</li>
-              <li>Más experiencia en el diseño, desarrollo y producción web de aplicaciones, sevidores y bases de datos en la nube</li>
-
-        </ul>
+        <h5>Principales Logros</h5>
+        <li>Diseño e implementación de bases de datos robustas en PostgreSQL y MySQL, optimizando el rendimiento y escalabilidad del sistema.</li>
+        <li>Desarrollo de APIs y microservicios escalables con Node.js, mejorando la eficiencia y capacidad de integración del sistema.</li>
+        <li>Implementación de soluciones en la nube con Hostinger y Railway para optimizar la disponibilidad y flexibilidad del producto.</li>
+        <li>Colaboración activa en la captura de requisitos y diseño funcional, alineando el desarrollo a las necesidades del cliente y mejorando la experiencia del usuario.</li>
+        <li>Diseño y desarrollo de aplicaciones de escritorio utilizando .NET, ampliando el alcance de la solución a diferentes plataformas de usuario.</li>
+    </ul>
 
         <ul>
           <h5>Referencias</h5>
