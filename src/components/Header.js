@@ -1,25 +1,57 @@
-import React from 'react';
-import './Header.css'; // Asegúrate de crear este archivo
-import profileImage from '../assets/Perfil.jpg'; // Ruta de la imagen
+// Header.js
+import React, { useState } from "react";
+import { Link } from "react-scroll";
+import "./Header.css";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className="header">
-      <div className="header__container">
-        <div className="header__photo">
-          {/* Foto de perfil como un círculo */}
-          <img src={profileImage} alt="Foto de perfil" className="header__photo-circle" />
-
-        </div>
-        <div className="header__info">
-          <h1 className="header__name">Luciano Massa</h1>
-          <h2 className="header__title">Product Manager IT Jr / Software Developer Ssr</h2>
-          <p className="header__description">
-          Ayudo a las organizaciones a gestionar y liderar proyectos tecnológicos con el objetivo de maximizar el valor del producto, alineando equipos de desarrollo y producción.
-         </p>
-
-         
-        </div>
+      <div className="header-container">
+       {/* <h1></h1> */}
+        <button className="menu-toggle" onClick={toggleMenu}>
+          ☰
+        </button>
+        <nav className={`nav-menu ${isOpen ? "open" : ""}`}>
+          <ul className="menu">
+            
+            <li>
+              <Link to="experience" smooth={true} duration={500} onClick={toggleMenu}>
+                Experiencia
+              </Link>
+            </li>
+            <li>
+              <Link to="education" smooth={true} duration={500} onClick={toggleMenu}>
+                Educación
+              </Link>
+            </li>
+            <li>
+              <Link to="skills" smooth={true} duration={500} onClick={toggleMenu}>
+                Habilidades
+              </Link>
+            </li>
+            <li>
+              <Link to="carousel" smooth={true} duration={500} onClick={toggleMenu}>
+                Galería
+              </Link>
+            </li>
+            <li>
+              <Link to="qrcode" smooth={true} duration={500} onClick={toggleMenu}>
+                QR Code
+              </Link>
+            </li>
+            <li>
+              <Link to="cta" smooth={true} duration={500} onClick={toggleMenu}>
+                Contacto
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
   );
