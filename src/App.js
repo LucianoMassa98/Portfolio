@@ -17,12 +17,10 @@ function App() {
   return (
     <div className="App" ref={portfolioRef}>
       <Header />
-      <section id="profile">
+     
         <Profile />
-      </section>
-      <section id="hero">
+     
         <Hero />
-      </section>
       <section id="experience">
         <Experience />
       </section>
@@ -32,9 +30,7 @@ function App() {
       <section id="carousel">
         <Carousel />
       </section>
-      <section id="slide">
         <Slide />
-      </section>
       <section id="skills">
         <Skills />
       </section>
