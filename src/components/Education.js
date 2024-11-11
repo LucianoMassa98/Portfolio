@@ -13,7 +13,7 @@ const Education = () => {
 
       <div className="study-section">
         <h4>Facultad de Ciencias Exactas, Físicas y Naturales UNSJ</h4>
-        <p className="degree">Ingeniería en Sistemas de Información (2016 - Actualidad)</p>
+        <p className="degree">Licenciatura en ciencias de la computación (2016 - Actualidad)</p>
         <p>Durante mi carrera, adquirí conocimientos fundamentales en programación, diseño de sistemas y bases de datos, además de una sólida comprensión de los principios de ingeniería de software y gestión de proyectos.</p>
 
         <ul>
